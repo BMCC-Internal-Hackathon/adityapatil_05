@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri Bazzar</title>
+    <link rel="stylesheet" href="https://cdn.ayroui.com/1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.ayroui.com/1.0/csslineicons.css" />
+    <link rel="stylesheet" href="https://cdn.ayroui.com/1.0/css/starter.css" />
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <head>
+        <section class="navbar-area navbar-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="#">
+                                <h3 class="text-white ">Agri B</h3>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarOne" aria-controls="navbarOne" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarOne">
+                                <ul class="navbar-nav m-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll active" data-bs-toggle="collapse"
+                                            data-bs-target="#sub-nav1" aria-controls="sub-nav1" aria-expanded="false"
+                                            aria-label="Toggle navigation" href="javascript:void(0)">
+                                            Market
+                                            <div class="sub-nav-toggler">
+                                                <span><i class="lni lni-chevron-down"></i></span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0)">My listing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0)">Bid listing</a>
+                                    <li class="nav-item">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="navbar-btn d-none d-sm-inline-block">
+                                <ul>
+                                    <li>
+                                        <a class="btn primary-btn-outline" href="javascript:void(0)">Log In</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn primary-btn" href="javascript:void(0)">Sign Up</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            let navbarTogglerOne = document.querySelector(
+                ".navbar-one .navbar-toggler"
+            );
+            navbarTogglerOne.addEventListener("click", function () {
+                navbarTogglerOne.classList.toggle("active");
+            });
+        </script>
+        <section>
+            <section class="header-area header-one">
+                <div class="header-content-area">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-12">
+                                <div class="header-wrapper">
+                                    <div class="header-content">
+                                        <h1 class="header-title">
+                                            All the Produce From Farm To you!
+                                        </h1>
+                                        <p class="text-lg">
+                                            We provide all the Produces grains, fruits, vegetables, millets and so on.
+                                        </p>
+                                        <div class="header-btn rounded-buttons">
+                                            <a class="btn primary-btn-outline btn-lg" href="javascript:void(0)">
+                                                Explore Market
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <div class="header-image d-none d-lg-block">
+                                    <div class="image">
+                                        <img src="/assets/farm.png" alt="family with farm produce" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-shape">
+                        <img src="https://cdn.ayroui.com/1.0/images/header/header-shape.svg" alt="shape" />
+                    </div>
+                </div>
+            </section>
+        </section>
+    </head>
+   <main>
+    <section class="section-products">
+		<div class="container">
+				<div class="row justify-content-center text-center">
+						<div class="col-md-8 col-lg-6">
+								<div class="header">
+										<h3>Featured Product</h3>
+										<h2>Popular Products</h2>
+								</div>
+						</div>
+				</div>
+				<div class="row">
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-1" class="single-product">
+										<div class="part-1">
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-old-price">$79.99</h4>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-2" class="single-product">
+										<div class="part-1">
+												<span class="discount">15% off</span>
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-3" class="single-product">
+										<div class="part-1">
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-old-price">$79.99</h4>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-4" class="single-product">
+										<div class="part-1">
+												<span class="new">new</span>
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-1" class="single-product">
+										<div class="part-1">
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-old-price">$79.99</h4>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-2" class="single-product">
+										<div class="part-1">
+												<span class="discount">15% off</span>
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-3" class="single-product">
+										<div class="part-1">
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-old-price">$79.99</h4>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3">
+								<div id="product-4" class="single-product">
+										<div class="part-1">
+												<span class="new">new</span>
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+</section>
+   </main>
+
+    <footer>
+        <footer class="footer-area footer-one">
+            <div class="footer-widget">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-4 col-sm-12">
+                            <div class="f-about">
+                                <div class="footer-logo">
+                                    <a href="javascript:void(0)">
+                                        <h3>Agri B</h3>
+                                    </a>
+                                </div>
+                                <p class="text">
+                                    We are a agriculture trading Business. We are here to help you
+                                    to grow your business and help you to sell your products.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-sm-4">
+                            <div class="footer-link">
+                                <h6 class="footer-title">Company</h6>
+                                <ul>
+                                    <li><a href="javascript:void(0)">Home</a></li>
+                                    <li><a href="javascript:void(0)">About </a></li>
+                                    <li><a href="javascript:void(0)">Policies</a></li>
+                                    <li><a href="javascript:void(0)">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-sm-4">
+                            <div class="footer-link">
+                                <h6 class="footer-title">Services</h6>
+                                <ul>
+                                    <li><a href="javascript:void(0)">Product listing</a></li>
+                                    <li><a href="javascript:void(0)">Add Listing</a></li>
+                                    <li><a href="javascript:void(0)">Bid Listing </a></li>
+                                    <li><a href="javascript:void(0)">Insights</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-sm-4">
+                            <div class="footer-contact">
+                                <h6 class="footer-title">Help & Suuport</h6>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-pin"></i>Pune, Maharashtra, India
+                                    </li>
+                                    <li><i class="fa-solid fa-phone"></i> +91 123556 88545</li>
+                                    <li><i class="fa-solid fa-envelope"></i> support@agrib.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="
+                   copyright
+                   text-center
+                   d-md-flex
+                   justify-content-between
+                   align-items-center
+                   ">
+                                <p class="text">Copyright © 2023 Agri B. All Rights Reserved</p>
+                                <ul class="social">
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="lni lni-facebook-filled"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="lni lni-twitter-original"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <i class="lni lni-instagram-filled"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
+    <script src="https://cdn.ayroui.com/1.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/3adf98993d.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
