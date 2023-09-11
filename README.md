@@ -28,7 +28,7 @@ Agri B is a simplified produce listing system designed to connect local farmers 
 
 To get started with Agri B, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-project.git`
+1. Clone the repository: `git clone [https://github.com/BMCC-Internal-Hackathon/adityapatil_05]`
 2. Spin up Apache Server
 3. move the project to htdocs the project.
 4. Run the application locally.
