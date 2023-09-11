@@ -1119,7 +1119,7 @@ only screen and (min-width: 1400px) {
   color: var(--primary);
 }
 
-marketplace page css
+/* marketplace page css */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
@@ -1219,6 +1219,10 @@ a:hover {
     background-color: #444444;
 }
 
+.product-container{
+  display: grid;
+}
+
 .section-products .single-product .part-1 ul {
     position: absolute;
     bottom: -41px;
@@ -1241,7 +1245,7 @@ a:hover {
 }
 
 .section-products .single-product .part-1 ul li a {
-    display: inline-block;
+    display: flexbox;
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -1282,3 +1286,5 @@ a:hover {
     background-color: #444444;
     transform: translateY(-50%);
 }
+
+    
