@@ -1,6 +1,6 @@
 # Agri B
 
-![Project Logo or Screenshot](link-to-your-project-image.png)
+![Project Logo or Screenshot](ss/1ss.png)
 
 ## Table of Contents
 
